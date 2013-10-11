@@ -1,0 +1,12 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="rulejardin" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="rulejardin" scope="public">
+    <tag>out.action=new Object(); </tag>
+    <item>Sarah</item>
+     <one-of>
+	  	<item>positif<tag>out.action.action="actif";</tag></item>
+	  	<item>négatif<tag>out.action.action="inactif";</tag></item>
+    </one-of> 
+	
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/autohue";</tag>
+  </rule>
+</grammar>

@@ -1,0 +1,20 @@
+Prérequis :
+Avoir des ampoules hue
+Installer le plugin hue de JP
+Avoir une camera ip
+
+Activer la fonction :
+Dire : Sarah, active l'eclairage automatique
+
+Désactiver :
+Dire : Sarah, désactive l'eclairage automatique
+
+La camera ip doit appeler une url de ce style pour activer une ampoule :
+http://IPSARAH:PORTSARAH/sarah/autohue?on=true&light=1&time=10
+
+on=true ne doit pas changer, il disparaitra bientot, je l'ai garde pour les tests.
+light= ici donnez le numero de l'ampoule à allumer
+time= Le temps d'allumage de l'ampoule en secondes.
+
+Ici, on allume donc l'ampoule numero 1 pendant 10 secondes.
+

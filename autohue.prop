@@ -1,0 +1,10 @@
+{
+  "modules": { 
+    "autohue": {
+      "description": "Allumage hue avec ipcam",
+      "version": "0.5",
+      "sarahip": "127.0.0.1",
+      "sarahport": "8080"
+    }
+  }
+}
